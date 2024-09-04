@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 const ContextProvider=(props)=>{
 
-    const [input,setInput]=useState("react");
+    const [input,setInput]=useState("");
     const [recentPrompt,setRecentPrompt]=useState("");
     const [prevPrompts,setPrevPrompts]=useState([]);
     const [showResult,setShowResult]=useState(false);
